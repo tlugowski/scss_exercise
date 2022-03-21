@@ -1,0 +1,81 @@
+@mixin fullbox($width) {
+  display: block;
+  width: $width;
+}
+
+@mixin webkitTransition($value) {
+  -webkit-transition: all $value;
+  -o-transition: all $value;
+  transition: all $value;
+}
+
+@mixin webkitTransformScale($firstValue, $secondValue) {
+  -webkit-transform: scale($firstValue, $secondValue);
+  -ms-transform: scale($firstValue, $secondValue);
+  -o-transform: scale($firstValue, $secondValue);
+  transform: scale($firstValue, $secondValue);
+}
+
+@mixin webkitTransformTranslate($firstValue, $secondValue) {
+  -webkit-transform: translate($firstValue, $secondValue);
+  -ms-transform: translate($firstValue, $secondValue);
+  -o-transform: translate($firstValue, $secondValue);
+  transform: translate($firstValue, $secondValue);
+}
+
+@mixin webkitTransformOrigin($firstValue) {
+  -webkit-transform-origin: $firstValue;
+  -ms-transform-origin: $firstValue;
+  -o-transform-origin: $firstValue;
+  transform-origin: $firstValue;
+}
+
+@mixin heighBackgoundColor($height, $background-color) {
+  height: $height;
+  background-color: $background-color;
+}
+
+@mixin heighBackgound($height, $background) {
+  height: $height;
+  background-color: $background;
+}
+
+@mixin heightWidth($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin marginWidth($margin, $width) {
+  margin: $margin;
+  width: $width;
+}
+
+@mixin topLeft($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+@mixin topRight($top, $right) {
+  top: $top;
+  right: $right;
+}
+
+@mixin bottomLeft($bottom, $left) {
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin bottomRight($bottom, $right) {
+  bottom: $bottom;
+  right: $right;
+}
+
+@mixin colorBorder($color, $border) {
+  color: $color;
+  border: $border;
+}
+
+@mixin colorBackground($color, $background) {
+  color: $color;
+  background: $background;
+}
